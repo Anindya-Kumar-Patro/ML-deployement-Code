@@ -1,0 +1,19 @@
+<html>
+    <body bgcolor = #d4a3ae>
+    <center>
+        <h1>IRIS FLOWER DETECTOIN</h1>
+
+        <form method="POST", action = "{{url_for('predict')}}">
+            <b>
+                First value:<input type="text", name="a", placeholder="data1"><br><br>
+                Second value:<input type="text", name="b", placeholder="data2"><br><br>
+                Third value:<input type="text", name="c", placeholder="data3"><br><br>
+                Fourth value:<input type="text", name="d", placeholder="data4"><br><br>
+                <input type = "submit", value = "Predict">
+            </b>
+
+        </form>
+    </center>
+    </body>
+
+    </html>
